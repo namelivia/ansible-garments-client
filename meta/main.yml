@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: namelivia.garments-client
+  role_name: ansible-garments-client
   author: José Ignacio Amelivia Santiago <jignacio.amelivia@gmail.com>
   description: Ansible role I use to install and configure namelivia/garments-client
   license: GPLv2

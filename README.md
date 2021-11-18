@@ -11,7 +11,7 @@ collections:
   - community.docker
 
 roles:
-  - src: https://github.com/namelivia/namelivia.garments-client
+  - src: https://github.com/ansible-ansible-garments-client
 ```
 
 ## Required variables
