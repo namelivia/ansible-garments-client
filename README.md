@@ -1,4 +1,4 @@
-# Garments client Ansible role
+# Garments client Ansible role [![Ansible Lint](https://github.com/namelivia/ansible-garments-client/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/namelivia/ansible-garments-client/actions/workflows/ansible-lint.yml)
 
 ## This is a WIP
 
