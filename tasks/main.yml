@@ -7,6 +7,7 @@
       - cloudwatch_region is defined
       - cloudwatch_log_group is defined
       - garments_api_endpoint is defined
+      - domain_name is defined
 
 - name: Create app container
   docker_container:
@@ -27,3 +28,6 @@
       - name: "pomerium"
     env:
       VUE_APP_API_ENDPOINT: "{{ garments_api_endpoint }}"
+      VIRTUAL_HOST: "{{ domain_name }}"
+      LETSENCRYPT_HOST: "{{ domain_name }}"
+      VIRTUAL_PORT: "80"
