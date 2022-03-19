@@ -29,5 +29,6 @@
     env:
       VUE_APP_API_ENDPOINT: "{{ garments_api_endpoint }}"
       VIRTUAL_HOST: "{{ domain_name }}"
+      VIRTUAL_PATH: "/"
       LETSENCRYPT_HOST: "{{ domain_name }}"
       VIRTUAL_PORT: "80"
